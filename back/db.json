@@ -1,0 +1,127 @@
+{
+    "SYSINFO": {
+        "CPU": {
+            "Name": "Intel Core i3 2120",
+            "Code Name": "Sandy Bridge",
+            "Max TDP": "65 W",
+            "Package": "Socket 1155 LGA",
+            "Technology": "32nm",
+            "Core VID": "1.181 V",
+            "Specification": "Intel (R) Core(TM) i3-2120 CPU @ 3.30GHz",
+            "Family": "6",
+            "Ext. Familly": "6",
+            "Model": "A",
+            "Ext. Model": "2A",
+            "Stepping": "7",
+            "Revision": "D2",
+            "Instructions": [
+                "MMX",
+                "SSE",
+                "SSE2",
+                "SSE3",
+                "SSSE3",
+                "SSE4.1",
+                "SSE4.2",
+                "EM64T",
+                "VT-x",
+                "AVX"
+            ],
+            "Core #0": {
+                "Speed": "1596.19MHz",
+                "Multiplier": "x16.0 (16 - 33)",
+                "Bus Speed": "99.76 MHz"
+            },
+            "Core #1": {
+                "Speed": "1596.19MHz",
+                "Multiplier": "x16.0 (16 - 33)",
+                "Bus Speed": "99.76 MHz"
+            },
+            "Core #2": {
+                "Speed": "1596.19MHz",
+                "Multiplier": "x16.0 (16 - 33)",
+                "Bus Speed": "99.76 MHz"
+            },
+            "Core #3": {
+                "Speed": "1596.19MHz",
+                "Multiplier": "x16.0 (16 - 33)",
+                "Bus Speed": "99.76 MHz"
+            },
+            "Cache": {
+                "L1 Data": "2 x 32 KBytes - 8-way",
+                "L1 Inst.": "2 x 32 KBytes - 8-way",
+                "Level 2": "2 x 256 KBytes - 8-way",
+                "Level 3": "3 MBytes - 12-way"
+            }
+        },
+        "MEMORY": {
+            "Type": "DDR3",
+            "Total Size": "12 GBytes",
+            "Channel #": "Dual",
+            "Uncore Frequency": "3345.2 MHz",
+            "DRAM Frequency": "794 MHz",
+            "FSB:DRAM": "1:16",
+            "CAS# Latency (CL)": "11.0 clocks",
+            "RAS# to CAS# Delay (tRCD)": "11 clocks",
+            "RAS# Precharge (tRP)": "11 clocks",
+            "Cycle Time (tRAS)": "30 clocks",
+            "Row Refresh Cycle Time (tRFC)": "208 clocks",
+            "Command Rate": "1T",
+            "Slot #1": {
+                "Type": "DDR3",
+                "Module Size": "4 GBytes",
+                "Max Bandswitch": "PC3-12800 (800 MHz)",
+                "Module Manuf.": "Avant Technology",
+                "DRAM Manuf.": "Micron Technology",
+                "Part Number": "F284327527F1600G"
+            },
+            "Slot #2": {
+                "Type": "DDR3",
+                "Module Size": "8 GBytes",
+                "Max Bandswitch": "PC3-12800 (800 MHz)",
+                "Module Manuf.": "Kingston",
+                "DRAM Manuf.": "---",
+                "Part Number": "KHX1600C10D3/8G"
+            }
+        },
+        "MAINBOARD": {
+            "Manufacturer": "ASRock",
+            "Model": "H81M-HG4",
+            "Bus Specs": "PCI-Express 2.0 (5.0 GT/s)",
+            "Chipset": "Intel Haswell",
+            "C-Rev": "06",
+            "Southbridge": "Intel H81",
+            "SB-Rev": "C2",
+            "LPCIO": "Nuvoton NCT6776",
+            "BIOS": {
+                "Brand": "American Megatrends Inc.",
+                "Version": "P1.50",
+                "Date": "28/07/2015"
+            },
+            "Graphic Interface": {
+                "Bus": "PCI-Express 2.0",
+                "Current Link Width": "x16",
+                "Max.Supported": "x16",
+                "Current Link Speed": "2.5 GT/s",
+                "Max Supported": "5.0 GT/s"
+            }
+        },
+        "GRAPHICS": {
+            "Name": "NVIDIA GeForce GTX 1050 Ti",
+            "Board Manuf.": "PNY",
+            "Code Name": "GP107-400",
+            "Technology": "14nm",
+            "Revision": "A1",
+            "TDP": "75.0W",
+            "Clocks": {
+                "GFX Core": "607.5 MHz",
+                "Memory": "405.0 MHz"
+            },
+            "Memory": {
+                "Size": "4 GBytes",
+                "Type": "GDDR5",
+                "Vendor": "Hynix",
+                "Bus Width": "128 bits"
+            }
+        }
+    }
+}

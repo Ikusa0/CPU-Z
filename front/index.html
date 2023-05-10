@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vite App</title>
+</head>
+
+<body>
+    <div class="sidebar">
+      <div class="sidebar__header">
+        <img src="./src/styles/img/logo.jpg" alt="">
+        <h1>Not a CPU-Z</h1>
+        <h6>(É sério, não é cópia)</h6>
+      </div>
+
+      <div class="sidebar__body">
+        <a href="#">
+          <ion-icon class="icon" name="cog-outline"></ion-icon>
+          <span>Processador</span>
+          <ion-icon class="icon" name="chevron-forward-outline"></ion-icon>
+        </a>
+
+        <a class="active" href="#">
+          <ion-icon class="icon" name="cog-outline"></ion-icon>
+          <span>Processador</span>
+          <ion-icon class="icon" name="chevron-forward-outline"></ion-icon>
+        </a>
+      </div>
+    </div>
+
+    <div id="app">
+      <table class="styled-table">
+        <thead>
+            <tr>
+                <th>Propriedade</th>
+                <th>Valor</th>
+            </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td class="property">Name</td>
+            <td>Intel Core i5 5200U</td>
+        </tr>
+        <tr>
+            <td class="property">Code Name</td>
+            <td>Broadwell-U</td>
+        </tr>
+        </tbody>
+        </table>
+    </div>
+  <script type="module" src="./src/scripts/main.js"></script>
+
+</body>
+
+</html>
